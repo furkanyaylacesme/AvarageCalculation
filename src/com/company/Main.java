@@ -32,7 +32,7 @@ public class Main {
         double average = (math+physics+chemical+turkish+music+tarih)/6.0;
         System.out.println("Ortalamanız : " + average);
 
-        String passed = average >= 60 ? "Geçtin" : "Kaldın";
+        String passed = average >= 60 ? "Sınıfı Geçti" : "Sınıfta Kaldı";
         System.out.println(passed);
 
     }
